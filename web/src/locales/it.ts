@@ -382,7 +382,7 @@ export default {
       manual: `<p>Solo <b>PDF</b> è supportato.</p><p>
       Assumiamo che il manuale abbia una struttura di sezione gerarchica, usando i titoli di sezione più bassi come unità base per il chunking dei documenti.
       </p>`,
-      naive: `<p>I formati file supportati sono <b>MD, MDX, DOCX, XLSX, XLS (Excel 97-2003), PPTX, PDF, TXT, JPEG, JPG, PNG, TIF, GIF, CSV, JSON, EML, HTML</b>.</p>
+      naive: `<p>I formati file supportati sono <b>MD, MDX, DOCX, XLSX, XLS (Excel 97-2003), PPTX, PDF, TXT, TIF, GIF, CSV, JSON, EML, HTML</b>.</p>
       <p>Questo metodo suddivide i file usando un metodo 'naive': </p>
       <p>
       <li>Usa un modello di rilevamento visivo per dividere i testi in segmenti più piccoli.</li>
